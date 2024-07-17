@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#ad91b4, #31033b);
+}
+
+
+.main-title {
+    text-align: center;
+    color: #3d9c09;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.money {
+    margin-left: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-people {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:#240a58;
+    padding-bottom: 30px;
+}
+
+.money-body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.group-date {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 40px
+}
+
+.group-sum {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.date-minus-money {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.date-staff-money {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.plus-money {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+.sum-money {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+span {
+    color: #3d9c09;
+}
+
+@media screen and (max-width: 300px) {
+    .main-title {
+        font-size: 35px;
+    }
+
+    .money {
+        margin: 0;
+    }
+    .name-people {
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+
+    .money-body {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        gap: 40px;
+    }
+
+    .group-sum {
+        gap: 20px
+    }
+
+    
+}

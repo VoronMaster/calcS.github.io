@@ -103,17 +103,30 @@ span {
     color: #3d9c09;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 1300px) {
+    .money {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+   
     .main-title {
-        font-size: 35px;
+        font-size: 55px;
     }
 
     .money {
         margin: 0;
+        padding: 20px;
+    }
+
+    .money-item {
+        padding: 0;
     }
     .name-people {
         text-align: center;
-        font-size: 25px;
+        font-size: 50px;
         padding-bottom: 5px;
     }
 
@@ -125,8 +138,176 @@ span {
         gap: 40px;
     }
 
+    .plus-money {
+        font-size: 30px;
+    }
+
+    .sum-money {
+        font-size: 30px;
+    }
+
+    .date-minus-money {
+        font-size: 30px;
+    }
+
+    .date-minus-money span {
+        font-size: 35px;
+    }
+
+    .date-staff-money {
+        font-size: 30px;
+    }
+
+    .date-staff-money span {
+        font-size: 35px;
+    }
+
+    .plus-money span {
+        font-size: 50px;
+    }
+
+    .sum-money span {
+        font-size: 50px;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+   
+    .main-title {
+        font-size: 45px;
+    }
+
+    .money {
+        margin: 0;
+        padding: 20px;
+    }
+    .name-people {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+
+    .money-body {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        gap: 40px;
+    }
+
+    
+}
+@media screen and (max-width: 500px) {
+   
+    .main-title {
+        font-size: 35px;
+    }
+
+    .money {
+        margin: 0;
+        padding: 20px;
+    }
+    .name-people {
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+
+    .money-body {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        gap: 40px;
+    }
+
+    .date-minus-money span {
+        font-size: 23px;
+    }
+
+    .date-staff-money span {
+        font-size: 23px;
+    }
+
     .group-sum {
         gap: 20px
+    }
+
+    .date-minus-money {
+        font-size: 23px;
+    }
+
+    .date-staff-money {
+        font-size: 23px;
+    }
+
+    .plus-money span {
+        font-size: 25px;
+    }
+
+    .sum-money span {
+        font-size: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+   
+    .main-title {
+        font-size: 30px;
+    }
+
+    .money {
+        margin: 0;
+        padding: 0px;
+    }
+
+    .money-item {
+        padding: 0;
+    }
+    .name-people {
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    .money-body {
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        gap: 40px;
+    }
+
+    .date-minus-money span {
+        font-size: 23px;
+    }
+
+    .date-staff-money span {
+        font-size: 23px;
+    }
+
+    .group-sum {
+        gap: 20px
+    }
+
+    .plus-money span {
+        font-size: 25px;
+    }
+
+    .sum-money span {
+        font-size: 25px;
+    }
+
+    .date-staff-money {
+        font-size: 20px;
+    }
+
+    .date-minus-money {
+        font-size: 20px;
     }
 
     

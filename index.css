@@ -277,6 +277,7 @@ span {
     .money-body {
         text-align: center;
         justify-content: space-between;
+        flex-direction: column;
         flex-wrap: wrap;
         
         gap: 40px;

@@ -5,13 +5,13 @@
 }
 
 body {
-    background: linear-gradient(#ad91b4, #31033b);
+    background: #fff;
 }
 
 
 .main-title {
     text-align: center;
-    color: #3d9c09;
+    color: #0e2005;
     font-size: 40px;
     font-family: sans-serif;
     padding: 30px;
@@ -24,12 +24,20 @@ body {
     flex-direction: column;
 }
 
+.money-item {
+    border: 2px solid #0e2005;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 .name-people {
     font-size: 35px;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     color:#240a58;
     padding-bottom: 30px;
+    color:#860c26
 }
 
 .money-body {
@@ -52,22 +60,43 @@ body {
 }
 
 .date-minus-money {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 15px;
 }
+
+.date-minus-money span {
+    font-size: 30px;
+    font-weight: 700;
+}
 .date-staff-money {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 15px;
+}
+
+.date-staff-money span {
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .plus-money {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 23px;
 }
 
+.plus-money span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 .sum-money {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 23px;
+}
+
+.sum-money span {
+    font-size: 50px;
+    font-weight: 700;
 }
 
 span {

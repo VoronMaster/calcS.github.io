@@ -1,3 +1,16 @@
+import fs from 'fs'
+
+const json1 = readFilneSync('database.json', 'utf8');
+
+console.log(json1)
+
+// const object = JSON.parse(json1);
+// object.key2 = 'value2';
+
+// const json2 = JSON.stringify(object);
+// writeFileSync('database.json', json2);
+
+
 
 const addDeptBtn = document.querySelector('.add-btn');
 const backBtn = document.querySelector('.back-btn');

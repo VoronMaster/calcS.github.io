@@ -1,35 +1,8 @@
 
-// let object1 =  {
-//     date1: '2024-06-10', 
-//     date2: '2024-07-17', 
-//     idSum: '#sum', 
-//     idStartSum: '#startSum', 
-//     proc: 0.05, 
-//     Ssum: 500
-// }
-function calc({date1, date2, idSum, idStartSum, proc, Ssum}) {
+const addDeptBtn = document.querySelector('.add-btn');
+const backBtn = document.querySelector('.back-btn');
 
-}
 
-// calc( {
-//     date1: '2024-06-10', 
-//         date2: '2024-07-17', 
-//         idSum: '#sum', 
-//         idStartSum: '#startSum', 
-//         proc: 0.05, 
-//         Ssum: 500
-// }
-//     )
-
-//     calc( {
-//         date1: '2024-05-29', 
-//             date2: '2024-07-06', 
-//             idSum: '#sum-2', 
-//             idStartSum: '#startSum2', 
-//             proc: 0.05, 
-//             Ssum: 700
-//     }
-//         )
 
 fetch('database.json')
   .then(response => response.json())
@@ -125,6 +98,24 @@ if (currentDate >= interestStartDate && currentDate >= loanDate) {
 
    
   })
+
+  if (addDeptBtn) {
+    addDeptBtn.addEventListener('click', () => {
+        window.location.href = 'addDept.html'
+      })
+  }
+
+  
+
+  if (backBtn) {
+    backBtn.addEventListener('click', () => {
+        window.location.href = 'index.html'
+      })
+  }
+
+  
+
+
 
 
 

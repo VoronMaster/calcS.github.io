@@ -8,6 +8,33 @@ body {
     background: #fff;
 }
 
+.btn {
+    background-color: #0e2005;
+    color:#3d9c09;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.add-btn, .back-btn {
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.add-btn:hover, .back-btn:hover, .create-btn:hover {
+    background-color: #860c26;
+    color: #fff;
+}
+
 
 .main-title {
     text-align: center;
@@ -98,6 +125,35 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 15px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #0e2005;
+    font-family: 'Nunito', sans-serif;
+}
+
 
 span {
     color: #3d9c09;
@@ -200,7 +256,9 @@ span {
     
 }
 @media screen and (max-width: 500px) {
-   
+    .header {
+        flex-direction: column;
+    }
     .main-title {
         font-size: 35px;
     }
@@ -255,6 +313,10 @@ span {
 }
 
 @media screen and (max-width: 400px) {
+
+    .header {
+        flex-direction: column;
+    }
    
     .main-title {
         font-size: 30px;
@@ -309,6 +371,10 @@ span {
 
     .date-minus-money {
         font-size: 20px;
+    }
+
+    form {
+        width: 270px;
     }
 
     
